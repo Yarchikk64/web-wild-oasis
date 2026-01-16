@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+- Features
+User authentication (NextAuth)
+Browse cabins and view detailed information
+Book cabins with date selection
+Edit and delete bookings
+User profile page
+Country selection
+Server Actions and API routes
+Global state management with Context API
+Loading / error / not-found pages
 
-## Getting Started
 
-First, run the development server:
+- Tech Stack
+Next.js (App Router)
+React
+Supabase — database and backend
+NextAuth — authentication
+Tailwind CSS — styling
+Server Actions
+Context API
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Architecture
+Built with Next.js App Router
+Clear separation of concerns:
+  app/_components — reusable UI components
+  app/_lib — data fetching, auth, Supabase logic
+  app/api — server routes
+Focus on readability, scalability, and real-world workflow
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Project Goal
+This project was created to:
+  practice Next.js + React on a real-world use case
+  understand full-stack application architecture
+  work with authentication and databases
+  prepare for real commercial development
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+⚙️ Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Clone the repository:
+Install dependencies: npm install
+Create a .env.local file and add your Supabase credentials: 
 
-## Learn More
+NEXT_PUBLIC_SUPABASE_URL=https://ttnyzofvjpreoetukrhm.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_7buwp7ipNyyd8ElVMUYL0A_w40BqjDv
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=AE9G1ZX+Ra7ow+QXWGjvdkNzat4loMDDakFwV4PomVA=
+AUTH_GOOGLE_ID=181068537742-jqe0vqp6nds9jk8vbvmrmqrf2ko117sc.apps.googleusercontent.com
+AUTH_GOOGLE_SECRET=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
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Run the development server: npm run dev
