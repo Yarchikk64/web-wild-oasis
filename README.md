@@ -1,4 +1,4 @@
-- Features
+Features
 User authentication (NextAuth);
 Browse cabins and view detailed information;
 Book cabins with date selection;
@@ -10,7 +10,7 @@ Global state management with Context API;
 Loading / error / not-found pages;
 
 
-- Tech Stack
+Tech Stack
 Next.js (App Router)
 React
 Supabase — database and backend
@@ -19,7 +19,7 @@ Tailwind CSS — styling
 Server Actions
 Context API
 
-- Architecture
+Architecture
 Built with Next.js App Router
 Clear separation of concerns:
   app/_components — reusable UI components
@@ -27,7 +27,7 @@ Clear separation of concerns:
   app/api — server routes
 Focus on readability, scalability, and real-world workflow
 
-- Project Goal
+Project Goal
 This project was created to:
   practice Next.js + React on a real-world use case
   understand full-stack application architecture
