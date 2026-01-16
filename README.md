@@ -1,13 +1,13 @@
 - Features
-User authentication (NextAuth)
-Browse cabins and view detailed information
-Book cabins with date selection
-Edit and delete bookings
-User profile page
-Country selection
-Server Actions and API routes
-Global state management with Context API
-Loading / error / not-found pages
+User authentication (NextAuth);
+Browse cabins and view detailed information;
+Book cabins with date selection;
+Edit and delete bookings;
+User profile page;
+Country selection;
+Server Actions and API routes;
+Global state management with Context API;
+Loading / error / not-found pages;
 
 
 - Tech Stack
